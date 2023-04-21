@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 19037d5a5d201974693fb71f34da960a
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Anzil
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: c2aeaa9e08a344f4c80a8c45071dda4a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

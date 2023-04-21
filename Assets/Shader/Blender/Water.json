@@ -1,0 +1,353 @@
+{
+    "nodeDatas": [
+        {
+            "connections0Name": [
+                "Value_001"
+            ],
+            "connections0NodeName": [
+                "ShaderNodeMath.Math"
+            ],
+            "connections1Name": [],
+            "connections1NodeName": [],
+            "connections2Name": [],
+            "connections2NodeName": [],
+            "connections3Name": [],
+            "connections3NodeName": [],
+            "connections4Name": [],
+            "connections4NodeName": [],
+            "location": [
+                -417.86248779296875,
+                273.0843505859375
+            ],
+            "name": "ShaderNodeTexVoronoi.Voronoi Texture",
+            "properties": [
+                "3D",
+                "SMOOTH_F1",
+                "EUCLIDEAN",
+                "0.0",
+                "12.0",
+                "0.6000000238418579",
+                "0.5",
+                "1.0"
+            ]
+        },
+        {
+            "connections0Name": [
+                "Value"
+            ],
+            "connections0NodeName": [
+                "ShaderNodeMath.Math"
+            ],
+            "connections1Name": [],
+            "connections1NodeName": [],
+            "connections2Name": [],
+            "connections2NodeName": [],
+            "connections3Name": [],
+            "connections3NodeName": [],
+            "connections4Name": [],
+            "connections4NodeName": [],
+            "location": [
+                -417.86260986328125,
+                596.9957275390625
+            ],
+            "name": "ShaderNodeTexVoronoi.Voronoi Texture.001",
+            "properties": [
+                "3D",
+                "F1",
+                "EUCLIDEAN",
+                "0.0",
+                "12.0",
+                "0.6000000238418579",
+                "0.5",
+                "1.0"
+            ]
+        },
+        {
+            "connections0Name": [
+                "Fac"
+            ],
+            "connections0NodeName": [
+                "ShaderNodeValToRGB.ColorRamp"
+            ],
+            "location": [
+                -132.70166015625,
+                537.8643798828125
+            ],
+            "name": "ShaderNodeMath.Math",
+            "properties": [
+                "SUBTRACT",
+                "False",
+                "0.5",
+                "0.5",
+                "0.5"
+            ]
+        },
+        {
+            "connections0Name": [
+                "Color"
+            ],
+            "connections0NodeName": [
+                "ShaderNodeInvert.Invert"
+            ],
+            "location": [
+                117.1126937866211,
+                313.51715087890625
+            ],
+            "name": "ShaderNodeValToRGB.ColorRamp",
+            "properties": [
+                "0.0-0.0-0.0-1.0-0.057971011847257614|1.0-1.0-1.0-1.0-0.07608719170093536|",
+                "RGB",
+                "LINEAR",
+                "NEAR",
+                "0.5"
+            ]
+        },
+        {
+            "connections0Name": [
+                "Vector",
+                "Vector"
+            ],
+            "connections0NodeName": [
+                "ShaderNodeTexVoronoi.Voronoi Texture.001",
+                "ShaderNodeTexVoronoi.Voronoi Texture"
+            ],
+            "location": [
+                -692.2574462890625,
+                491.0292053222656
+            ],
+            "name": "ShaderNodeMapping.Mapping",
+            "properties": [
+                "POINT",
+                "0.0",
+                "0.0",
+                "0.0",
+                "0.0",
+                "0.49399998784065247",
+                "0.0",
+                "0.0",
+                "0.0",
+                "0.0",
+                "1.0",
+                "1.0",
+                "1.0"
+            ]
+        },
+        {
+            "connections0Name": [
+                "Vector"
+            ],
+            "connections0NodeName": [
+                "ShaderNodeSeparateXYZ.Separate XYZ"
+            ],
+            "connections1Name": [],
+            "connections1NodeName": [],
+            "connections2Name": [],
+            "connections2NodeName": [],
+            "connections3Name": [],
+            "connections3NodeName": [],
+            "connections4Name": [],
+            "connections4NodeName": [],
+            "location": [
+                -1537.576904296875,
+                466.7779235839844
+            ],
+            "name": "ShaderNodeTexCoord.Texture Coordinate"
+        },
+        {
+            "connections0Name": [
+                "Vector"
+            ],
+            "connections0NodeName": [
+                "ShaderNodeMapping.Mapping"
+            ],
+            "location": [
+                -918.4000244140625,
+                494.21282958984375
+            ],
+            "name": "ShaderNodeCombineXYZ.Combine XYZ",
+            "properties": [
+                "0.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "connections0Name": [
+                "X"
+            ],
+            "connections0NodeName": [
+                "ShaderNodeCombineXYZ.Combine XYZ"
+            ],
+            "connections1Name": [
+                "Value"
+            ],
+            "connections1NodeName": [
+                "ShaderNodeMath.Math.001"
+            ],
+            "connections2Name": [
+                "Z"
+            ],
+            "connections2NodeName": [
+                "ShaderNodeCombineXYZ.Combine XYZ"
+            ],
+            "location": [
+                -1328.8546142578125,
+                472.76287841796875
+            ],
+            "name": "ShaderNodeSeparateXYZ.Separate XYZ",
+            "properties": [
+                "0.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "connections0Name": [
+                "Vector"
+            ],
+            "connections0NodeName": [
+                "ShaderNodeTexMusgrave.Musgrave Texture"
+            ],
+            "location": [
+                -1638.4398193359375,
+                208.5426788330078
+            ],
+            "name": "ShaderNodeMapping.Mapping.001",
+            "properties": [
+                "POINT",
+                "0.0",
+                "0.0",
+                "0.0",
+                "0.5488888621330261",
+                "0.5488888621330261",
+                "0.5488888621330261",
+                "0.0",
+                "0.0",
+                "0.0",
+                "2.0",
+                "2.0",
+                "2.0"
+            ]
+        },
+        {
+            "connections0Name": [
+                "Value_001"
+            ],
+            "connections0NodeName": [
+                "ShaderNodeMath.Math.001"
+            ],
+            "location": [
+                -1391.5572509765625,
+                181.04678344726562
+            ],
+            "name": "ShaderNodeTexMusgrave.Musgrave Texture",
+            "properties": [
+                "3D",
+                "FBM",
+                "0.0",
+                "5.0",
+                "0.029999999329447746",
+                "2.0",
+                "2.0",
+                "0.0",
+                "1.0"
+            ]
+        },
+        {
+            "connections0Name": [
+                "Vector"
+            ],
+            "connections0NodeName": [
+                "ShaderNodeMapping.Mapping.001"
+            ],
+            "connections1Name": [],
+            "connections1NodeName": [],
+            "connections2Name": [],
+            "connections2NodeName": [],
+            "connections3Name": [],
+            "connections3NodeName": [],
+            "connections4Name": [],
+            "connections4NodeName": [],
+            "location": [
+                -1841.9967041015625,
+                206.5817413330078
+            ],
+            "name": "ShaderNodeTexCoord.Texture Coordinate.001"
+        },
+        {
+            "connections0Name": [
+                "Y"
+            ],
+            "connections0NodeName": [
+                "ShaderNodeCombineXYZ.Combine XYZ"
+            ],
+            "location": [
+                -1111.4058837890625,
+                367.2041320800781
+            ],
+            "name": "ShaderNodeMath.Math.001",
+            "properties": [
+                "ADD",
+                "False",
+                "0.5",
+                "0.5",
+                "0.5"
+            ]
+        },
+        {
+            "location": [
+                1040.222412109375,
+                302.2918701171875
+            ],
+            "name": "NULL.ShaderNodeOutputMaterial.Material Output"
+        },
+        {
+            "location": [
+                767.567626953125,
+                391.16314697265625
+            ],
+            "name": "NULL.ShaderNodeMixShader.Mix Shader"
+        },
+        {
+            "location": [
+                513.7982788085938,
+                129.08251953125
+            ],
+            "name": "NULL.ShaderNodeBsdfTransparent.Transparent BSDF"
+        },
+        {
+            "connections0Name": [
+                "Fac"
+            ],
+            "connections0NodeName": [
+                "ShaderNodeMixShader.Mix Shader"
+            ],
+            "location": [
+                516.2178344726562,
+                373.39337158203125
+            ],
+            "name": "ShaderNodeInvert.Invert",
+            "properties": [
+                "1.0",
+                "0.0",
+                "0.0",
+                "0.0",
+                "1.0"
+            ]
+        },
+        {
+            "location": [
+                519.0068969726562,
+                247.24893188476562
+            ],
+            "name": "NULL.ShaderNodeEmission.Emission"
+        },
+        {
+            "name": "EXTRA",
+            "properties": [
+                "True",
+                "True"
+            ]
+        }
+    ]
+}

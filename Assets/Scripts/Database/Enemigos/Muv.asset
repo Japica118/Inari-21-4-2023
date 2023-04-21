@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 093c6ab250bccdf49931c16b839b3118, type: 3}
+  m_Name: Muv
+  m_EditorClassIdentifier: 
+  ID: 
+  nombre: Muv
+  Nivel: 7
+  tipo: Normal
+  elemento: Viento
+  "localizaci\xF3n": Subterraneo
+  experiencia: 38
+  pA: 4
+  itemDropeable:
+  - {fileID: 11400000, guid: ac88a9f2d828f1f4fa760685344976f2, type: 2}
+  - {fileID: 11400000, guid: 7475aa7ed5452154ba09a7177866c5c7, type: 2}
+  monedas: 16
+  vida: 74
+  ataqueFisico: 28
+  ataqueEspiritual: 17
+  defensa: 17
+  defensaEspiritual: 14
+  velocidad: 13

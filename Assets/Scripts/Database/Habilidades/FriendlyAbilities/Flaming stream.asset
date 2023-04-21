@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d59a7f49ab546d49afd648bd12a7764, type: 3}
+  m_Name: Flaming stream
+  m_EditorClassIdentifier: 
+  ID: 
+  name: Flaming stream
+  element: Fire Wind
+  baseDamage: 40
+  costSpiritual: 30
+  pA: 0
+  status: Burn
+  target: Multiple
+  type: Damage
+  overclock: 0
+  description: High temperature breeze that can burn enemies.
+  ability: Fireball Breeze
+  variance: 12
+  statusEffect: 40

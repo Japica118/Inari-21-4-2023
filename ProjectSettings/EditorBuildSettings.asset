@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Juego/Main_Menu.unity
+    guid: 1925b1f298bf3154b80931560e621198
+  - enabled: 1
+    path: Assets/Scenes/Juego/Scene_1.unity
+    guid: 2b6a513388780bc459651c8b0fca0bf5
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Juego/Scene_3.unity
+    guid: 41d87f100be57674a80063ad1469e821
+  - enabled: 1
+    path: Assets/Scenes/Juego/Scene_4.unity
+    guid: 311f33e273d17d34394e4dbd64a73900
+  - enabled: 1
+    path: Assets/Scenes/Juego/Scene_5.unity
+    guid: 83de1c0e3b871944585cf7232171a1c6
+  - enabled: 1
+    path: Assets/Scenes/Juego/Scene_6.unity
+    guid: 0f78a96c56f237e4ca4c1d70f4edb55a
+  - enabled: 1
+    path: Assets/Scenes/Juego/Scene_7.unity
+    guid: 60335aa0f3630e04ebfc11bfd2459651
+  - enabled: 1
+    path: Assets/Scenes/Juego/Transition.unity
+    guid: 5e0740c71aff65f4c896a74d31c091da
+  - enabled: 1
+    path: Assets/Scenes/Battle_Professor.unity
+    guid: ed3f3d2fb5cdf484eb2bb303639a8854
+  - enabled: 1
+    path: Assets/Scenes/After_Battle.unity
+    guid: 8710e0765e2b69c4e9d312e0a3e5706d
+  - enabled: 1
+    path: Assets/Scenes/Juego/Scene_16.unity
+    guid: 1ca94fd01cb55e94ca495a6b57543b4b
+  - enabled: 1
+    path: Assets/Scenes/Battle Scene.unity
+    guid: 5e58e104689ec7a4eadb85751af1c71a
+  - enabled: 1
+    path: Assets/Scenes/Juego/Scene_8.unity
+    guid: 6b061f52dbb1d41429d8db8405d3470e
+  - enabled: 1
+    path: Assets/Scenes/Juego/Scene_9.unity
+    guid: 1fc2d096c76239f4d891e314599d4fec
+  - enabled: 1
+    path: Assets/InprogressShefhy/Bosque/Bosque Labari.unity
+    guid: 986302caefbca8549a992237c4f456fa
+  - enabled: 1
+    path: Assets/Scenes/Juego/Scene_10.unity
+    guid: 1858dbdc923720349a71988760802bb4
+  - enabled: 1
+    path: Assets/Scenes/Juego/Scene_11.unity
+    guid: ad309e8bff7473d42a1b43ac51d04d9d
+  - enabled: 1
+    path: Assets/Scenes/Juego/Scene_13.unity
+    guid: 312fbb7b92765e04bb514b762bacfb9a
+  - enabled: 1
+    path: Assets/Scenes/Juego/Scene_12.unity
+    guid: 88f9623c228585b498d9053150a96cbf
+  - enabled: 1
+    path: Assets/Scenes/Juego/Scene_14.unity
+    guid: 20b610914b215cb49a3379e1fae2592e
+  - enabled: 1
+    path: Assets/Scenes/Juego/Scene_15.unity
+    guid: 5e7aa055a6c2e444180160b9299e298d
+  - enabled: 1
+    path: Assets/Scenes/Juego/Scene_17.unity
+    guid: 96dc98bd654aa594e9669bd093de8257
+  - enabled: 1
+    path: Assets/Scenes/Juego/Scene_18.unity
+    guid: 4664d8be6d12bf54687b1cc416247278
+  - enabled: 1
+    path: Assets/Scenes/Juego/Scene_19.unity
+    guid: e0ac44244ee56c14783d86c19f61fea7
+  - enabled: 1
+    path: Assets/Scenes/Juego/Scene_17 1.unity
+    guid: d31957a4e21c6484b9ceed624fec054f
+  - enabled: 1
+    path: Assets/Scenes/Juego/Scene_17 2.unity
+    guid: f148567705598884fb2069288d029a2e
+  - enabled: 1
+    path: Assets/Scenes/Juego/Scene_20.unity
+    guid: 3d905ca93620b5447a6f6b76b02f6a48
+  - enabled: 1
+    path: Assets/Scenes/Juego/Scene_2.unity
+    guid: ccdd5c99f98568740b42ae7026dfe336
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7,
+      type: 2}

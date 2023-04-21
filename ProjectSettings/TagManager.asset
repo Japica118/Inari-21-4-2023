@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Attack
+  - Paopa
+  - damageManager
+  - Enemy
+  - Message
+  - Hidden
+  - Ruhe
+  - Hangin
+  - Rock
+  - FxTemporaire
+  - Torch
+  - Ice
+  - Kalju
+  - TeleportTrigger
+  - Water
+  - Torch3
+  - Torch4
+  - Torch2
+  - Torch1
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Ground
+  - Water
+  - UI
+  - Ruhe
+  - Lua
+  - Stairs
+  - Player
+  - UICamera
+  - Carpet
+  - Postprocess
+  - Tatami
+  - Techo
+  - PlayerIcon
+  - UICamera_2
+  - Ice
+  - Dirt
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
